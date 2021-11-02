@@ -1,0 +1,11 @@
+{
+  "name": "@caee/cli-template-vite-vue3",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
+}
