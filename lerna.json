@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "templates/*"
+  ],
+  "version": "1.0.0",
+  "granularPathspec": false
+}
