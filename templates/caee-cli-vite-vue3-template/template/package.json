@@ -1,6 +1,6 @@
 {
   "name": "<%= packageJsonName %>",
-  "version": "<%= version %>",
+  "version": "<%= projectVersion %>",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",

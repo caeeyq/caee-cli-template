@@ -1,6 +1,6 @@
 {
   "name": "<%= packageJsonName %>",
-  "version": "<%= version %>",
+  "version": "<%= projectVersion %>",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
