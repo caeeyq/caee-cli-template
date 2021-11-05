@@ -1,0 +1,15 @@
+{
+  "name": "@caee/cli-custom-template-vite-vue3",
+  "version": "1.0.3",
+  "description": "vite-vue3 ts template",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  }
+}
