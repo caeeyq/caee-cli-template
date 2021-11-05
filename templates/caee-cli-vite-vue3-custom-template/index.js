@@ -5,7 +5,7 @@ function install(options) {
   const { targetPath, sourcePath } = options
   fse.ensureDirSync(sourcePath)
   fse.ensureDirSync(targetPath)
-  fse.copySync(templatePath, targetPath)
+  fse.copySync(sourcePath, targetPath)
   console.log('模板拷贝完成...')
 }
 
