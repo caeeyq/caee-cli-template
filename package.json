@@ -1,7 +1,7 @@
 {
   "name": "caee-cli-template",
   "version": "1.0.0",
-  "description": "",
+  "description": "caee-cli-template",
   "main": "index.js",
   "scripts": {
     "publish": "lerna publish"
