@@ -6,8 +6,8 @@
       mode="horizontal"
       router
     >
-      <ElMenuItem index="/">首页</ElMenuItem>
-      <ElMenuItem index="demo">Dog Demo</ElMenuItem>
+      <ElMenuItem index="/">首页(home)</ElMenuItem>
+      <ElMenuItem index="demo">Dog Demo(demo)</ElMenuItem>
     </ElMenu>
     <RouterView></RouterView>
   </div>
