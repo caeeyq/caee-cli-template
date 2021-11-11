@@ -1,21 +1,28 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <div class="app-wrapper">
+    <ElMenu
+      default-active="home"
+      class="app-wrapper__menu"
+      mode="horizontal"
+      router
+    >
+      <ElMenuItem index="/">首页</ElMenuItem>
+      <ElMenuItem index="demo">Dog Demo</ElMenuItem>
+    </ElMenu>
+    <RouterView></RouterView>
+  </div>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<script setup lang="ts">
+import { RouterView } from 'vue-router'
+import { ElMenu, ElMenuItem } from 'element-plus'
+</script>
+
+<style scoped lang="scss">
+.app-wrapper {
+  @include flex-center(column);
+  .app-wrapper__menu {
+    width: 1200px;
+  }
 }
 </style>
