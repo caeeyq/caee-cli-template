@@ -31,6 +31,6 @@ const resConfig = envConfig[env]
 export default {
   env,
   isMock: false,
-  localStorageNamespace: `${env}:caee-page-build-client`,
+  localStorageNamespace: `${env}:<%= packageJsonName %>`,
   ...resConfig,
 }
